@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Sign up</h2>
+<form method="post" id="reg_form">
+
+    {% csrf_token %}
+    <p><label for="id_username">Email address:</label> <input required id="id_username" name="username" type="email">
+    </p>
+    <p><label for="id_password1">Password:</label> <input required id="id_password1" name="password1" type="password">
+    </p>
+    <button type="submit">Sign up</button>
+    <a href="{% url 'home' %}">Home</a>
+
+</form>
+{% endblock %}
+
+
+
+
