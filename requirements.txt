@@ -1,6 +1,6 @@
 Django==1.6
 django-filter==0.7
 django-oauth2-provider==0.2.6.1
-djangorestframework==2.3.13
+djangorestframework==3.11.2
 Markdown==2.4.1
 shortuuid==0.5.0
